@@ -1,4 +1,5 @@
 # Обновление MEGAD
+[![Donate](https://img.shields.io/badge/donate-Yandex-red.svg)](https://yoomoney.ru/to/410013955329136)
 
 Аддон помогает легко обновить прошивку megad. Под капотом ничего необычного - это официальный php-скрипт
 обновления прошивки.

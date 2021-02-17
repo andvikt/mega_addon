@@ -1,4 +1,4 @@
-ARG BUILD_FROM
+
 FROM php:7-alpine
 ARG BASHIO_VERSION=0.12.1
 ARG MEGAD_SCRIPT_URL=http://ab-log.ru/files/File/megad-cfg/megad-cfg-2561.zip
