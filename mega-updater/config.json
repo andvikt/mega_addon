@@ -1,0 +1,28 @@
+{
+  "name": "megad-updater",
+  "version": "v0.1.2",
+  "slug": "megad-updater",
+  "description": "update megad",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "manual",
+  "options": {
+    "localip": "192.168.88.37",
+    "hosts": [
+        {
+          "ip": "192.168.0.14",
+          "password": "sec"
+        }
+      ]
+  },
+  "schema": {
+    "localip": "str",
+    "hosts": [
+      {
+        "ip": "str",
+        "password": "str"
+      }
+    ]
+  },
+  "host_network": true
+}
