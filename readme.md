@@ -3,6 +3,7 @@
 
 В этом репозитории содержится аддон для обновления прошивки [MegaD-2561, MegaD-328](https://www.ab-log.ru/smart-house/ethernet/megad-2561)
 
+[Интеграция с HA](https://github.com/andvikt/mega_hacs.git)
 ## Установка
 addon - это исключительно фича hass.io, если у вас home-assistant установлен в виде hass.io, то
 вам необходимо перейти в `supervisor`-`addon-store`, нажать три точки, нажать 
