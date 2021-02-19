@@ -8,8 +8,5 @@
   "boot": "auto",
   "options": {},
   "schema": {},
-  "host_network": true,
-  "ports": {
-    "8124/tcp": 8124
-  }
+  "host_network": true
 }
