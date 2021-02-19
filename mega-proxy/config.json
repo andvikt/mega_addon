@@ -1,0 +1,15 @@
+{
+  "name": "megad-proxy",
+  "version": "v0.1.1",
+  "slug": "megad-proxy",
+  "description": "proxypass megad",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "host_network": false,
+  "ports": {
+    "8124/tcp": 8124
+  }
+}
