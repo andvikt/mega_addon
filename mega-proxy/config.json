@@ -2,7 +2,7 @@
   "name": "megad-proxy",
   "version": "v0.1.1alpha2",
   "slug": "megad-proxy",
-  "description": "proxypass megad",
+  "description": "proxypass megad requests",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
