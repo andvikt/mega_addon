@@ -2,8 +2,8 @@
 [![Donate](https://img.shields.io/badge/donate-Yandex-red.svg)](https://yoomoney.ru/to/410013955329136)
 
 В этом репозитории содержится аддоны для работы с [MegaD-2561, MegaD-328](https://www.ab-log.ru/smart-house/ethernet/megad-2561):
-- [nginx-proxy](https://github.com/andvikt/mega_addon/blob/master/mega-proxy/README.md)
-- [обновление прошивки MegaD](https://github.com/andvikt/mega_addon/blob/master/mega-updater/README.md)
+- [nginx-proxy](https://github.com/andvikt/mega_addon/blob/master/mega-proxy)
+- [обновление прошивки MegaD](https://github.com/andvikt/mega_addon/blob/master/mega-updater)
 
 [Интеграция с HA](https://github.com/andvikt/mega_hacs.git)
 ## Установка
