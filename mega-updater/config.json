@@ -24,5 +24,6 @@
       }
     ]
   },
-  "host_network": true
+  "host_network": true,
+  "url": "https://github.com/andvikt/mega_addon/tree/master/mega-updater"
 }
