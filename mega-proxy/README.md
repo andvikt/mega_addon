@@ -13,7 +13,8 @@
 # при условии что HA запущен на одной машине с docker
 docker build -t mega-nginx . && docker run -d --network host mega-nginx
 ```
-Или самостоятельно добавить соответсвующий конфиг (на примере `./nginx.conf`) в ваш nginx
+Или самостоятельно добавить соответсвующий конфиг (на 
+примере [./nginx.conf](https://github.com/andvikt/mega_addon/blob/master/mega-proxy/nginx.conf)) в ваш nginx
 
 ## Описание
 
