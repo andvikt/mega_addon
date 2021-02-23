@@ -4,7 +4,7 @@
 [Интеграция с HA](https://github.com/andvikt/mega_hacs.git)
 ## Установка
 
-Вам нужно установить реппозиторий согласно [инструкции](https://github.com/andvikt/mega_addon)
+Вам нужно установить репозиторий согласно [инструкции](https://github.com/andvikt/mega_addon)
 
 ## Описание
 
