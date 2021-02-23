@@ -1,4 +1,4 @@
-# MegaD updater
+# MegaD addons
 [![Donate](https://img.shields.io/badge/donate-Yandex-red.svg)](https://yoomoney.ru/to/410013955329136)
 
 В этом репозитории содержатся аддоны для работы с [MegaD-2561, MegaD-328](https://www.ab-log.ru/smart-house/ethernet/megad-2561):
