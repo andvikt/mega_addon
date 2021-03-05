@@ -9,17 +9,20 @@ rm megad.zip
 
 CONF=$(bashio::config 'hosts')
 localip=$(bashio::config 'localip')
-options=$(bashio::config 'options') || true
 
-if [[ "$options" == "null" ]]; then
-  options="-w --ee --read-conf /backup/megad-$ip.cfg --write-conf /backup/megad-$ip.cfg"
-  echo "$options"
-fi
+
 
 for cfg in $CONF
 do
   ip=$(bashio::jq "$cfg" '.ip')
   password=$(bashio::jq "$cfg" '.password')
+  options=$(bashio::jq "$cfg" '.options') || true
+
+  if [[ "$options" == "null" ]]; then
+    options="-w --ee --read-conf /backup/megad-$ip.cfg --write-conf /backup/megad-$ip.cfg"
+    echo "$options"
+  fi
+
   cmd="php megad-cfg-2561.php --ip $ip -p $password --local-ip $localip $options"
   echo "$cmd"
   $cmd
