@@ -1,6 +1,6 @@
 {
   "name": "megad-updater",
-  "version": "v0.2.0",
+  "version": "v0.2.1",
   "slug": "megad-updater",
   "description": "update megad",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
@@ -22,7 +22,7 @@
       {
         "ip": "str",
         "password": "str",
-        "options": "str"
+        "options": "str?"
       }
     ]
   },
