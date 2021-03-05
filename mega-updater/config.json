@@ -1,6 +1,6 @@
 {
   "name": "megad-updater",
-  "version": "v0.1.2",
+  "version": "v0.2.0",
   "slug": "megad-updater",
   "description": "update megad",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
@@ -11,7 +11,8 @@
     "hosts": [
         {
           "ip": "192.168.0.14",
-          "password": "sec"
+          "password": "sec",
+          "options": ""
         }
       ]
   },
@@ -20,10 +21,14 @@
     "hosts": [
       {
         "ip": "str",
-        "password": "str"
+        "password": "str",
+        "options": "str"
       }
     ]
   },
   "host_network": true,
-  "url": "https://github.com/andvikt/mega_addon/tree/master/mega-updater"
+  "url": "https://github.com/andvikt/mega_addon/tree/master/mega-updater",
+  "map": [
+    "backup:rw"
+  ]
 }
