@@ -1,6 +1,7 @@
 #!/usr/bin/env bashio
 set -e
 
+MEGAD_SCRIPT_URL=http://ab-log.ru/files/File/megad-cfg/megad-cfg-2561.zip
 echo "download latest update script from $MEGAD_SCRIPT_URL"
 curl -L -f -s "$MEGAD_SCRIPT_URL" > megad.zip
 unzip megad.zip
