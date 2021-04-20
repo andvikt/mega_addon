@@ -1,0 +1,24 @@
+name: 'Build image'
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: Build image
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout the repository
+      uses: actions/checkout@v2
+    - name: Login to DockerHub
+      uses: docker/login-action@v1
+      with:
+        username: ${{ secrets.DOCKER_USER }}
+        password: ${{ secrets.DOCKER_PASSWORD}}
+    - name: Test build
+      uses: home-assistant/builder@master
+      with:
+        args: |
+          --all \
+          --target mega-updater \
+          -i mega-updater-{arch} \
+          --docker-hub andvikt
