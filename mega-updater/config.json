@@ -1,12 +1,12 @@
 {
   "name": "megad-updater",
-  "version": "v0.3.0",
+  "version": "v0.3.1",
   "slug": "megad-updater",
   "description": "update megad",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "manual",
-  "image": "andvikt/mega-updater-{arch}",
+  "image": "andvikt/mega-updater-{arch}:latest",
   "options": {
     "localip": "192.168.88.37",
     "hosts": [
