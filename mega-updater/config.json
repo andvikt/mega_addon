@@ -1,6 +1,6 @@
 {
   "name": "megad-updater",
-  "version": "v0.3.1",
+  "version": "v0.3.2",
   "slug": "megad-updater",
   "description": "update megad",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
@@ -12,8 +12,7 @@
     "hosts": [
         {
           "ip": "192.168.0.14",
-          "password": "sec",
-          "options": ""
+          "password": "sec"
         }
       ]
   },
