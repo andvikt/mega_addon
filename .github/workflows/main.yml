@@ -22,4 +22,4 @@ jobs:
           --target mega-updater \
           -i mega-updater-{arch} \
           --docker-hub andvikt \
-          --generic
+          --generic 0.3.3
