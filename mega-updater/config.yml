@@ -4,10 +4,10 @@ slug: megad-updater
 description: update megad
 arch:
   - amd64
-#  - armv7
-#  - armhf
-#  - aarch64
-#  - i386
+  - armv7
+  - armhf
+  - aarch64
+  - i386
 startup: application
 boot: manual
 image: andvikt/mega-updater-{arch}
