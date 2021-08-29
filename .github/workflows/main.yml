@@ -21,4 +21,5 @@ jobs:
           --amd64 \
           --target mega-updater \
           -i mega-updater-{arch} \
-          --docker-hub andvikt
+          --docker-hub andvikt \
+          --generic
