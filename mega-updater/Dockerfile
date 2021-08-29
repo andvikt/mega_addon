@@ -14,8 +14,7 @@ RUN mkdir -p /usr/src/bashio \
 #mv /usr/src/bashio/lib /usr/lib/bashio \
 #    && ln -s /usr/lib/bashio/bashio /usr/bin/bashio \
 #    &&
-COPY docker-php-ext-install.sh ./
-RUN . ./docker-php-ext-install.sh sockets
+RUN docker-php-ext-install sockets
 
 COPY run.sh /
 RUN chmod a+x /run.sh
