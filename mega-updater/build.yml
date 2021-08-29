@@ -1,6 +1,6 @@
 build_from:
   armv7: arm32v7/php:7.4
   armhf: arm32v7/php:7.4
-  amd64: php:7.4
+  amd64: php:7
   aarch64: arm64v8/php:7.4
   i386: i386/php:7.4
