@@ -7,7 +7,10 @@
 
 [Интеграция с HA](https://github.com/andvikt/mega_hacs.git)
 ## Установка
-addon - это исключительно фича hass.io, если у вас home-assistant установлен в виде hass.io, то
-вам необходимо перейти в `supervisor`-`addon-store`, нажать три точки, нажать 
-`repositories`, в поле `add repository` добавить `https://github.com/andvikt/mega_addon.git` и нажать `add`,
-после чего в списке аддонов появится `megad-updater`, далее следуйте инструкции этого аддона.
+Аддоны устанавливаются только если у вас есть supervisor
+
+Сначала вам необходимо добавить мой репозиторий, самый простой способ сделать это:
+
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fandvikt%2Fmega_addon.git)
+
+После чего в списке аддонов появится `megad-updater`, `megad-proxy`, далее следуйте инструкции этого аддона.
