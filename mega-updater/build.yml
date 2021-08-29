@@ -1,0 +1,6 @@
+build_from:
+  armv7: arm32v7/php:7.3-alpine
+  armhf: arm32v7/php:7.3-alpine
+  amd64: amd64/php:7.3-alpine
+  aarch64: arm64v8/php:7.3-alpine
+  i386: i386/php:7.3-alpine
