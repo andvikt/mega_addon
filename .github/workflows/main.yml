@@ -21,5 +21,4 @@ jobs:
           --all \
           --target mega-updater \
           -i mega-updater-{arch} \
-          --docker-hub andvikt \
-          --generic 0.3.3
+          --docker-hub andvikt
