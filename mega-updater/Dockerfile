@@ -10,8 +10,8 @@ ENV LANG C.UTF-8
 RUN mkdir -p /usr/src/bashio \
     && apk add --no-cache bash jq \
     && curl -L -f -s "https://github.com/hassio-addons/bashio/archive/v${BASHIO_VERSION}.tar.gz" \
-        | tar -xzf - --strip 1 -C /usr/src/bashio \
-    && mv /usr/src/bashio/lib /usr/lib/bashio \
+        | tar -xzf - --strip 1 -C /usr/src/bashio
+RUN mv /usr/src/bashio/lib /usr/lib/bashio \
     && ln -s /usr/lib/bashio/bashio /usr/bin/bashio \
     && docker-php-ext-install sockets
 
