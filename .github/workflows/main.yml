@@ -18,7 +18,7 @@ jobs:
       uses: home-assistant/builder@master
       with:
         args: |
-          --amd64 \
+          --all \
           --target mega-updater \
           -i mega-updater-{arch} \
           --docker-hub andvikt \
